@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocalizationActivity">
+    <TextView
+        android:id="@+id/activity_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Localization Activity"
+        android:textSize="23sp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:padding="3dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/hello_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/how_are_you_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/how_are_you"
+        android:layout_below="@id/hello_tv"
+        android:layout_centerHorizontal="true"
+        android:padding="3dp"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <Button
+        android:onClick="printLogs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Print logs"
+        android:background="@null"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>

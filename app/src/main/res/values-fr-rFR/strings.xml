@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Configuration/Localization</string>
+    <string name="hello">Bonjour</string>
+    <string name="how_are_you">Comment allez-vous</string>
+</resources>
